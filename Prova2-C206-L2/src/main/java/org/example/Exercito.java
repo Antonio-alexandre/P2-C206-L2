@@ -19,7 +19,6 @@ public class Exercito {
     public void mostraInfo(){
         System.out.println();
         System.out.println("Nome do exército: " + this.nome);
-        System.out.println("Quantidade de soldados: " +Soldado.qtdSoldado);
         System.out.println("Soldados: ");
         for(int i = 0; i < soldados.length; i++){
             if(this.soldados[i] != null){
@@ -43,6 +42,7 @@ public class Exercito {
                 }
             }
         }
+        System.out.println("Quantidade de soldados: " +Soldado.qtdSoldado);
     }
 
     public void setNome(String nome) {
